@@ -1,0 +1,21 @@
+<ion-view view-title="About">
+<ion-nav-buttons side="right">
+    <a style="color: green;" ng-click="cameraClick()" class="button button-icon icon ion-camera"></a> 
+</ion-nav-buttons>
+  <ion-content>
+  <center>
+  <img id="myImage" style="padding-top: 10px" height="250" width="250" align="middle"></img>
+  <center>
+  <div class="list list-inset">
+  <label class="item item-input">
+    <input type="text" placeholder="Title">
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Description">
+  </label>
+  <button ng-click="goBack()" class="button button-block button-positive">
+  Report
+</button>
+</div>
+  </ion-content>
+</ion-view>
